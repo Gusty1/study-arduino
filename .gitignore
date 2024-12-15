@@ -1,0 +1,40 @@
+# 忽略 Arduino IDE 產生的檔案和資料夾
+*.bak
+*.swp
+*.swo
+*.log
+*.bin
+*.elf
+*.hex
+*.eep
+*.d
+*.map
+*.lst
+*.o
+*.dSYM/
+
+# 忽略 ESP32 相關的編譯產物
+/build/
+.cache/
+.vscode/
+
+# 忽略 ESP32 特有的設定檔
+platformio.ini
+*.pio/
+*.platformio/
+
+# 忽略 Arduino IDE 的臨時檔案
+*.arduino
+*.build
+
+# 忽略使用者自定義的設定檔
+*.user
+*.prefs
+
+# 忽略臨時文件和IDE設定檔
+.idea/
+.vscode/
+
+# 忽略編譯和打包的檔案
+/firmware.bin
+/.pio
